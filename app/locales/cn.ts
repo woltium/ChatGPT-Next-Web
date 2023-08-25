@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "请前往[登录](/#/auth)页输入正确的访问密码,密码可以在**[作者的爱发电](https://afdian.net/a/woltim)**免费获得",
+      : "请前往[登录](/#/auth)页输入正确的访问密码,密码可以在**[作者的爱发电](https://afdian.net/a/woltim)** 免费获得",
   },
   Auth: {
     Title: "需要密码",
