@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "请前往[登录](/#/auth)页输入正确的访问密码,密码可以在https://afdian.net/a/woltim免费获得",
+      : "请前往[登录](/#/auth)页输入正确的访问密码,密码可以在**[作者的爱发电](https://afdian.net/a/woltim)**免费获得",
   },
   Auth: {
     Title: "需要密码",
@@ -266,7 +266,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎，本机器人由钨丝提供支持，密码可以在**[钨丝的爱发电](https://afdian.net/a/woltim)**免费获得，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**
+      如果你需要使用说明，或是你对搭建一个同样的网站感兴趣，也可以关注我的爱发电，后续会更新教程（应该。
+      ",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
