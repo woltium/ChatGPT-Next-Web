@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "请前往[登录](/#/auth)页输入正确的访问密码,密码可以在**[作者的爱发电](https://afdian.net/a/woltim)** 免费获得",
+      : "请前往[登录](/#/auth)页输入正确的访问密码,密码可以在 **[我的主页](https://afdian.net/a/woltim)** 免费获得",
   },
   Auth: {
     Title: "需要密码",
@@ -266,9 +266,9 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `🎉欢迎！本网站由钨丝维护，密码可以在**[我的主页](https://afdian.net/a/woltim)** 免费获得，随后在[设置](/#/settings)中输入密码后即可解锁。
-    
-    📃网站运营需要一些成本，也欢迎在主页投喂咖啡来支持我~如果你需要本网站的详细使用说明，或是你对搭建一个同样的网站感兴趣，后续还会在里面更新教程，不要错过！`,
+    BotHello: `🎉欢迎！本网站由钨丝维护，密码可以在 **[我的主页](https://afdian.net/a/woltim)** 免费获得，随后在[设置](/#/settings)中输入密码后即可解锁。
+
+📃网站运营需要一些成本，也欢迎在主页投喂咖啡来支持我~如果你需要本网站的详细使用说明，或是你对搭建一个同样的网站感兴趣，后续还会在里面更新教程，不要错过！`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
