@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : `请前往[登录](/#/auth)页输入正确的访问密码,密码可以在 **[我的主页](https://afdian.net/a/woltim)** 免费获得(主页审核还没过，密码:wusichat)
+      : `请前往[登录](/#/auth)页输入正确的访问密码,密码可以在 **[我的主页](https://afdian.net/a/woltim)** 免费获得(密码不是wusichat了，新密码请去主页看)
       欢迎加入🐧讨论群805907962,说不定哪天我就改密码了呢`,
   },
   Auth: {
@@ -267,7 +267,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: `🎉欢迎！本网站由钨丝维护，密码可以在 **[我的主页](https://afdian.net/a/woltim)** 免费获得(密码:wusichat)，随后在[设置](/#/settings)中输入密码后即可解锁。
+    BotHello: `🎉欢迎！本网站由钨丝维护，密码可以在 **[我的主页](https://afdian.net/a/woltim)** 免费获得(密码不是wusichat了)，随后在[设置](/#/settings)中输入密码后即可解锁。
 
 ☕网站运营需要一些成本，欢迎在主页投喂咖啡来支持我~
 
